@@ -5,4 +5,18 @@
   margin-right: 70px;
 }
 
+form {
+    padding-left: 35px;
+    padding-right: 35px;
+    /*color: crimson;*/
+    margin-bottom: 35px;
+}
+
+/*
+label {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+*/
+
 
