@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BrassDragonArchive.Data;
 
 namespace BrassDragonArchive
 {
@@ -46,6 +47,7 @@ namespace BrassDragonArchive
              * object to any controller whose constructor has a DbContext parameter.
              */
             services.AddDbContext<CharacterContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BrassDragonArchiveContext")));
+            services.AddDbContext<BrassDragonDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BrassDragonArchiveContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

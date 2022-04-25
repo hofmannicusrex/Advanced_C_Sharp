@@ -4,14 +4,16 @@ using BrassDragonArchive.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BrassDragonArchive.Migrations.BrassDragonDb
 {
     [DbContext(typeof(BrassDragonDbContext))]
-    partial class BrassDragonDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220425020205_Attempting to Add Identity Tables")]
+    partial class AttemptingtoAddIdentityTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

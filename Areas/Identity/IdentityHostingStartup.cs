@@ -18,7 +18,7 @@ namespace BrassDragonArchive.Areas.Identity
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<BrassDragonDbContext>(options =>
                     options.UseSqlServer(
-                        context.Configuration.GetConnectionString("BrassDragonDbContextConnection")));
+                        context.Configuration.GetConnectionString("BrassDragonArchiveContext")));
 
                 services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddEntityFrameworkStores<BrassDragonDbContext>();
