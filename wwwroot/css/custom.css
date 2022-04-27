@@ -1,15 +1,19 @@
 ﻿body {
-  /* Margin bottom by footer height */
-  margin-top: 70px;
-  margin-left: 70px;
-  margin-right: 70px;
+    /* Margin bottom by footer height */
+    /*margin-top: 370px;
+    margin-left: 70px;
+    margin-right: 70px;*/
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 form {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     /*color: crimson;*/
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
+    margin-bottom: 1.5em;
 }
 
 /*
