@@ -19,6 +19,8 @@ namespace BrassDragonArchive.Models
         * Creating Database Tables
         ***************************************************************/
         public DbSet<Character> Characters { get; set; }
+        public DbSet<Class> Classes { get; set; }
+        public DbSet<Race> Races { get; set; }
 
         // Seeding initial database data.
         protected override void OnModelCreating(ModelBuilder modelBuilder)  // Overrids the method in the base class.
